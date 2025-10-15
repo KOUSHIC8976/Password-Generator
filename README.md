@@ -4,6 +4,8 @@ Python Password Entropy is a standalone, command-line utility designed to enforc
 The utility addresses the two vulnerabilities in credential management: predictable entropy and known compromises, offering a singular solution to achieve compliance with modern security benchmarks like NIST SP 800-63B.
 
 Usage:
-python app.py audit "Password"
-python app.py audit "Password" --breach
+python app.py audit "Password",
+
+python app.py audit "Password" --breach,
+
 python app.py -h
