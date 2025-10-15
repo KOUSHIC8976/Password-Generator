@@ -5,8 +5,8 @@ The utility addresses the two vulnerabilities in credential management: predicta
 
 Usage:
 
-python app.py audit "Password",
+python app.py audit "Password"
 
-python app.py audit "Password" --breach,
+python app.py audit "Password" --breach
 
 python app.py -h
